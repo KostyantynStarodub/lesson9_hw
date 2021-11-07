@@ -1,0 +1,77 @@
+body{
+    background-color: blanchedalmond;
+}
+.big_mother{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: blanchedalmond;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.images{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.images div{
+    width: 30%;
+    height: 100%;
+}
+.anecdotes{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.anecdotes div{
+    background-color: deepskyblue;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 3s;
+}
+.icons{
+    width: 100%;
+    height: 400px;
+}
+.icons_top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons_bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center
+}
+.anecdotes div:hover{
+    width: 35%;
+    background-color: brown;
+    color: cornsilk;
+    overflow: scroll;
+}
+
+.icons_4, .icons_top div{
+    width: 30%;
+    height: 100%;
+}
+i{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+li{
+    font-family: 'Architects Daughter', cursive;
+}
